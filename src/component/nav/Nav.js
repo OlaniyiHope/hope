@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import "./nav.css"
 import {AiOutlineHome} from "react-icons/ai"
 import {AiOutlineUser} from "react-icons/ai"

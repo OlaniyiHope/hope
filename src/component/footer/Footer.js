@@ -8,17 +8,17 @@ const Footer = () => {
    <footer>
      <a href="">HOPPEE</a>
      <ul className="permalinks">
-       <li><a href="#">Home</a></li>
-       <li><a href="#about">About</a></li>
-       <li><a href="#experience">Experience</a></li>
-       <li><a href="#servicdes">Sevices</a></li>
-       <li><a href="#portfolio">Porfolio</a></li>
-       <li><a href="#contact">Contact</a></li>
+       <li><a href="/">Home</a></li>
+       <li><a href="/about">About</a></li>
+       <li><a href="/experience">Experience</a></li>
+       <li><a href="/services">Sevices</a></li>
+       <li><a href="/portfolio">Porfolio</a></li>
+       <li><a href="/contact">Contact</a></li>
      </ul>
      <div className="footer__socials">
-<a href="http://facebook.com"><FaFacebookF /></a>
-<a href="http://instagram.com"><FiInstagram /></a>
-<a href="http://linkedin.com"><IoLogoTwitter /></a>
+<a href="http://facebook.com/HoppeeOlaniyi"><FaFacebookF /></a>
+<a href="http://instagram.com/olaniyihoppee"><FiInstagram /></a>
+<a href="http://twitter.com/olaniyihope8"><IoLogoTwitter /></a>
      </div>
      <div className="footer__copyright">
 <small> HOPPEE. All rights reserved</small>

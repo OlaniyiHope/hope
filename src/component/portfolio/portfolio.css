@@ -3,6 +3,9 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
 }
+.portfolio h3,h1,h5,h2{
+    color: #fff;
+}
 .portfolio__item{
     background: var(--color-bg-variant);
     padding: 1.3rem;
@@ -17,15 +20,18 @@
      
 }
 .portfolio__item-image img{
-    width: 260px;
-    height: 180px;
+    width: 97%;
+    margin: auto;
+    height: 220px;
 }
 .portfolio__item-image {
-    border-radius: 1.5rem;
     overflow: hidden;
+    width: 100%;
 }
 .portfolio__item h3{
     margin: 1.2rem 0 2rem;
+    color: #fff;
+    font-size: 18px;
 }
 .portfolio__item-cta{
     display: flex;

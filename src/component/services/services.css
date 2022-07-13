@@ -36,11 +36,12 @@ box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
     margin-bottom: 0.8rem;
 }
 .service__list-icon{
-    color: var(--primary-color);
+    color: #fff;
     margin-top: 2px;
 }
 .service__list p{
     font-size: 0.9rem;
+    color: #fff;
 }
 @media screen and (max-width: 1024px){
  .services__container{

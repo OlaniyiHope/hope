@@ -1,3 +1,7 @@
+
+#about{
+    margin-top: 350px;
+}
 .about__container{
     display: grid;
     grid-template-columns: 35% 50%;
@@ -51,15 +55,17 @@
 }
 .about__card h5{
     font-size: 0.96rem;
-
+color: #fff;
 }
 .about__card small{
     font-size: 0.7rem;
     color: var(--color-light);
+    color: #fff;
 }
 .about__content p{
     margin: 2rem - 2.6rem;
     width: 20%;
+    color: #fff;
 }
 
 
@@ -78,7 +84,9 @@
     
     }
     @media screen and (max-width: 600px){
-      
+        #about{
+            margin-top: 450px;
+        }
         .about__me{
             width: 65%;
             margin: 0 auto 3rem;

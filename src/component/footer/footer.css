@@ -1,5 +1,5 @@
 footer{
-    background: var(--color-primary-variant);
+    background: #175177;
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
@@ -27,6 +27,7 @@ footer a{
     justify-content: center;
     gap: 1rem;
     margin-bottom: 4rem;
+    color: #fff;
 }
 .footer__socials a{
     background: var(--color-bg);
