@@ -55,7 +55,7 @@ function App() {
 
   
 </Route>
-<Route path="/heading" element={<Heading />}>
+{/*<Route path="/heading" element={<Heading />}>
 
   
 </Route>
@@ -74,7 +74,7 @@ function App() {
 </Route>
 <Route path="/blog/:id" element={<Blog />}>
 
-</Route>
+  </Route>*/}
 </Routes>
  </Router>
   
