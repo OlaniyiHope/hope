@@ -1,6 +1,6 @@
 
 #about{
-    margin-top: 410px;
+    margin-top: 450px;
 }
 .about__container{
     display: grid;
@@ -85,7 +85,7 @@ color: #fff;
     }
     @media screen and (max-width: 600px){
         #about{
-            margin-top: 450px;
+            margin-top: 500px;
         }
         .about__me{
             width: 65%;
