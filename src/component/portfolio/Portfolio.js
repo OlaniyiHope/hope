@@ -61,7 +61,7 @@ import TAKE from "../../asset/my4.png"
 <img src={LOD} className="myimg" alt=""></img>
      <h3>Valuables for safekeeping site </h3>
      <div className="portfolio__item-cta">
-     <a href="#" className="btn" target="_blank" style={{backgroundColor: "#fff"}} >Site</a>
+     <a href="/" className="btn" target="_blank" style={{backgroundColor: "#fff"}} >Site</a>
 
      </div>
  

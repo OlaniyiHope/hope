@@ -12,10 +12,10 @@ export const Blog = () => {
   const [relatedPost, setRelatedPost] = useState([]);
   const { id } = useParams();
   useEffect(() => {
-    if(id){
-      getSingleBlog();
-    }
-  }, [id]);
+  if(id) {
+    getSingleBlog();
+  }
+  }, [id])
 
 
   const getSingleBlog = async () => {
