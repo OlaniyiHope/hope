@@ -35,6 +35,10 @@
     "server": "json-server --watch db.json --port 5000 && node server.js"
   },
   "eslintConfig": {
+      "plugins": ["react-hooks"],
+      "rules": {
+        "react-hooks/exhaustive-deps": 0
+        },
     "extends": [
       "react-app",
       "react-app/jest"
@@ -53,6 +57,7 @@
     ]
   },
   "devDependencies": {
+    "eslint-plugin-react-hooks": "^4.6.0",
     "gh-pages": "^3.2.3"
   }
 }

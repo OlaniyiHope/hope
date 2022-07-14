@@ -15,7 +15,7 @@ export const Blog = () => {
   if(id) {
     getSingleBlog();
   }
-  }, [id])
+  }, [id]) // eslint-disable-line react-hooks/exhaustive-deps
 
 
   const getSingleBlog = async () => {
