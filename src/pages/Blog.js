@@ -13,7 +13,7 @@ export const Blog = () => {
   const {id} = useParams();
   useEffect(() => {
     if(id){
-      getSingleBlog()
+      getSingleBlog();
     }
   }, [id]);
   const getSingleBlog = async () => {

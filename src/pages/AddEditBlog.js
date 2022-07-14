@@ -24,7 +24,7 @@ const {id} = useParams();
 useEffect(() => {
 if(id){
     setEditMode(true);
-    getSingleBlog(id)
+    getSingleBlog(id);
 }else{
     setEditMode(false);
     setFormValue({...initialState});

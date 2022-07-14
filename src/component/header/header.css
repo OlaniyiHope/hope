@@ -28,6 +28,7 @@
      width: 22rem;
      height: 30rem;
      position: absolute;
+     margin: auto;
      left: calc(50% - 11rem);
      margin-top: 1rem;
      border-radius: 12rem 12rem 0 0;
@@ -38,9 +39,9 @@
 
  }
 .me > img{
-    width: 380px;
-    height: 450px;
-margin-right: 150px;
+    width: 400px;
+    height: 400px;
+
 
 
     
@@ -72,7 +73,7 @@ header{
 }
 .me > img{
    
-margin-right: 0px;
+margin-right: 100px;
     
 }
 }
