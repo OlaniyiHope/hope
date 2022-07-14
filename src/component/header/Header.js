@@ -20,7 +20,7 @@ import Footer from '../footer/Footer'
 <h5>Hello</h5>
 <h1>Hope Olaniyi</h1>
 <h5 className="bye" >Front-End Developer</h5>
-
+<h5 className="bye" ><a href="/home" className="btn-primary"  style={{color: "#fff", padding: "6px", borderRadius: "6px"}}>Blog</a></h5>
 
 
 <CTA />
