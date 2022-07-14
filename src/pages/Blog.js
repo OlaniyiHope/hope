@@ -76,7 +76,7 @@ size="lg"
     <h1 style={{color: "#000"}}>RELATED POST </h1>
   )}
   <MDBRow className="row-cols-1 row-cols-md-3 g-4">
-{relatedPost.filter((item) => item.id != id).map((item, index) => (
+{relatedPost.filter((item) => item.id !== id).map((item, index) => (
   <MDBCol>
 <MDBCard>
   <Link to={`/blog/${item.id}`}>
