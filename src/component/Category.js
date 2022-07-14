@@ -1,5 +1,5 @@
 import React from 'react'
-import {MDBBtn, MDBListGroup, MDBCard, MDBListGroupItem} from "mdb-react-ui-kit"
+import {MDBListGroup, MDBCard, MDBListGroupItem} from "mdb-react-ui-kit"
 export const Category = ({handleCategory, options}) => {
   return (
     <MDBCard style={{width: "18rem", marginTop: "100px", height: "auto", margin: "auto"}}>

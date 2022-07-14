@@ -30,7 +30,7 @@ import Footer from '../footer/Footer'
 </div>
 </div>
 
-<a href='#' className='scroll__down'>Scroll Down</a>
+<a href='/' className='scroll__down'>Scroll Down</a>
 <About />
 <Experience />
 <Services />

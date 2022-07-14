@@ -9,9 +9,9 @@
 }
 :root{
     --color-bg: #1f1f3a;
-    --color-bg-variant: #2c2c6c;
+    --color-bg-variant: #175177;
     --color-primary: #fff;
-    --color-primary-variant: rgba(11,181,255,0.4);
+    --color-primary-variant: rgba(29, 140, 187, 0.4);
     --color-white: #fff;
     --color-light: #rgb(255,255,255,0.6);
 

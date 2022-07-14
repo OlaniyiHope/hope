@@ -1,5 +1,5 @@
 import React,{useEffect, useState} from 'react'
-import {MDBRow, MDBCol, MDBContainer, MDBTypography, MDBValidation, MDBInput, MDBBtn, 
+import {MDBRow, MDBCol, MDBContainer, MDBTypography, 
   MDBCard, MDBCardTitle, MDBCardBody, MDBCardImage, MDBCardText, MDBIcon } from "mdb-react-ui-kit"
   import {useParams, Link} from "react-router-dom"
   import axios from "axios"
@@ -10,12 +10,14 @@ import Footer from '../component/footer/Footer'
 export const Blog = () => {
   const [blog, setBlog] = useState();
   const [relatedPost, setRelatedPost] = useState([]);
-  const {id} = useParams();
+  const { id } = useParams();
   useEffect(() => {
     if(id){
       getSingleBlog();
     }
   }, [id]);
+
+
   const getSingleBlog = async () => {
     const response = await axios.get(`http://localhost:5000/blogs/${id}`);
     const relatedPostData = await axios.get(`http://localhost:5000/blogs?category=${response.data.category}&_start=0&_end=3`);

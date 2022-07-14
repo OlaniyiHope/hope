@@ -17,7 +17,7 @@ import TAKE from "../../asset/my4.png"
 <img src={LET} className="myimg" alt=""></img>
      <h3>Real Estate Website </h3>
      <div className="portfolio__item-cta">
-     <a href="http://21let.com" className="btn" style={{backgroundColor: "#fff"}}  target="_blank">Site</a>
+     <a href="http://21let.com" className="btn" style={{backgroundColor: "#fff"}}  >Site</a>
    
      </div>
  
@@ -28,7 +28,7 @@ import TAKE from "../../asset/my4.png"
 <img src={TWO} className="myimg" alt=""></img>
      <h3>School Website </h3>
      <div className="portfolio__item-cta">
-     <a href="http://masterpieceschools.com.ng" className="btn" style={{backgroundColor: "#fff"}} target="_blank">Site</a>
+     <a href="http://masterpieceschools.com.ng" className="btn" style={{backgroundColor: "#fff"}}>Site</a>
     
      </div>
  
@@ -39,7 +39,7 @@ import TAKE from "../../asset/my4.png"
 <img src={TMM} className="myimg" alt=""></img>
      <h3>Transport Website </h3>
      <div className="portfolio__item-cta">
-     <a href="https://themiraclemotorsng.com" className="btn" style={{backgroundColor: "#fff"}}  target="_blank">Site</a>
+     <a href="https://themiraclemotorsng.com" className="btn" style={{backgroundColor: "#fff"}} >Site</a>
      
      </div>
  
@@ -50,7 +50,7 @@ import TAKE from "../../asset/my4.png"
 <img src={CAT} className="myimg" alt=""></img>
      <h3>CrowdFunding Platform</h3>
      <div className="portfolio__item-cta">
-     <a href="http://youfundafrica.com" className="btn" style={{backgroundColor: "#fff"}}  target="_blank">Site</a>
+     <a href="http://youfundafrica.com" className="btn" style={{backgroundColor: "#fff"}}>Site</a>
    
      </div>
  

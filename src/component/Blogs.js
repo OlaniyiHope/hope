@@ -1,5 +1,5 @@
 import React from 'react'
-import {MDBCol, MDBCard, MDBCardTitle, MDBCardBody, MDBCardImage, MDBCardText, MDBBtn, MDBRow, MDBIcon} from "mdb-react-ui-kit"
+import {MDBCol, MDBCard, MDBCardTitle, MDBCardBody, MDBCardImage, MDBCardText, MDBRow} from "mdb-react-ui-kit"
 import {Link} from "react-router-dom"
 import Badge from './Badge'
 export const Blogs = ({title, category, description, id, imageUrl, excerpt}) => {

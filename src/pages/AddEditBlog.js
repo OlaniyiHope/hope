@@ -3,7 +3,7 @@ import axios from "axios"
 import { MDBValidation, MDBInput, MDBBtn } from 'mdb-react-ui-kit'
 import { toast } from 'react-toastify'
 import { useNavigate, useParams } from 'react-router-dom'
-//aedc6sty
+
 const initialState = {
     title: "",
     description: "",
@@ -54,7 +54,7 @@ const handleSubmit = async (e) => {
     if(!category) {
         setCategoryErrMsg("please select a category");
     };
-    const imageValidation = !editMode ? imageUrl : true;
+  
     if(title && description && imageUrl && category){
         const currentDate = getDate();
         if(!editMode){

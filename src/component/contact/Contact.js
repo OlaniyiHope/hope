@@ -14,19 +14,19 @@ import {BsWhatsapp} from "react-icons/bs"
   <MdOutlineEmail className="contact__option-icons"/>
 <h4>Email</h4>
 <h5>olaniyihoppee@gmail.com</h5>
-<a href="mail to:olaniyihoppee@gmail.com" target="_blank">Send a message</a>
+<a href="mail to:olaniyihoppee@gmail.com">Send a message</a>
 </article>
 <article className="contact__option">
   <RiMessengerLine className="contact__option-icons"/>
 <h4>Facebook</h4>
 <h5>Olaniyi Hope</h5>
-<a href="https://m.me/olaniyihope" target="_blank">Send a message</a>
+<a href="https://m.me/olaniyihope" >Send a message</a>
 </article>
 <article className="contact__option">
   <BsWhatsapp className="contact__option-icons"/>
 <h4>Whatsapp</h4>
 <h5>+234 703 481 2640</h5>
-<a href="https://api.whatsapp.com/send?phone+2347038412640" target="_blank">Send a message</a>
+<a href="https://api.whatsapp.com/send?phone+2347038412640">Send a message</a>
 </article>
         </div>
         <form action="">
