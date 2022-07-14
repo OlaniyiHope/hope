@@ -6,6 +6,7 @@
     "node": "14.17.0",
     "npm": "8.10.0"
   },
+  "proxy": "https://catfact.herokuapp.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -31,8 +32,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "json-server --watch db.json --port 5000",
-    "start:dev": "node server.js"
+    "server": "json-server --watch db.json --port 5000 && node server.js"
   },
   "eslintConfig": {
     "extends": [
