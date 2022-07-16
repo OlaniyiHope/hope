@@ -31,7 +31,7 @@ if(id){
 }
 }, [id]);
 const getSingleBlog = async (id) => {
-const singleBlog = await axios.get(`http://localhost:5000/blogs/${id}`);
+const singleBlog = await axios.get(`z/blogs/${id}`);
 if(singleBlog.status === 200){
     setFormValue({...singleBlog.data});
 }else{
